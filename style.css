@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Satoshi, sans-serif;
+}
+/* Frame 1000001688 */
+
+.navbar .navbar-brand .logo{
+    padding-left: 5rem;
+}
+
+.navbar .navbar-brand .logo{
+    width: 200px;
+    height: 35px;
+}
+
+.navbar .navbar-nav{
+    padding-right: 10vw;
+    
+}
+.navbar .navbar-nav .nav-link{
+    padding-right: 20px;
+}
+
+/* stop navbar */
+
+.border {
+    box-shadow: 0 2px 4px rgba(0,0,0,.08);
+    /* position: fixed; */
+    z-index: 80;
+    width: 100%;
+    font-style: italic;
+    top: 70px;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    background-color: #2f80ed;
+}
+
+.hero-wrapper {
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    background: url(/_next/static/media/purple_arraow.e16eb7db.svg);
+    background-position: 60% 43%;
+    background-repeat: no-repeat;
+    background-size: 7%;
+    
+}
+.section{
+    display: flex;
+    justify-content: space-around;
+}
+/* course */
+.course{
+    background-color: rgba(236, 248, 255, 1);
+    padding-top: 60px;
+    margin-top: 30px;
+    /* border: 5px solid red; */
+    width: 100%;
+}
+.course .course-title{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.08em;
+    text-align: center;
+    background-color: #fff;
+    background: linear-gradient(276.97deg, #992FED 0%, #2F80ED 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+.course .course-title-2{
+    font-size: 36px;
+    color: #2F80ED;
+
+}
+.course .section .sapling-card,.course .section .pioneer-card{
+    height: 450px;
+    border-radius: 5px;
+    /* border: .5px solid grey; */
+    border: 1px solid rgba(226, 226, 226, 1);
+}
+
+.course .section .sapling-card .headline,.course .section .pioneer-card .headline{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.course .section .sapling-card .headline{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.course .section .sapling-card .card-body .btn{
+    /* width: 75% !important; */
+    /* height: auto; */
+}
+
+/* course stop*/
+/* companies start */
+.companies .companies-headline {
+    display: flex;
+    flex-direction: column;
+}
+.companies .companies-headline .text{
+    
+    /* font-family: ABeeZee; */
+    font-size: 16px;
+    color: rgb(153,47,237);
+    /* font-style: italic; */
+    font-weight: bold;
+    /* line-height: 19px; */
+    letter-spacing: 0.08em;
+    text-align: center;
+}
+.companies .companies-headline .headline-text{
+    align-items: center;
+    align-self: center;
+    /* line-height: 10%; */
+    font-size: 42px;
+    /* font-style: italic; */
+}
+
+.companies .companies-headline #text{
+    font-size: 18px;
+    font-weight: 400;
+    /* line-height: 40px; */
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.companies .companies-headline .pb-1{
+    color: #2F80ED;
+}
+
+/* .companies .image{
+    background-image: url('./img/companies_logo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: auto;
+} */
+.companies{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* companies stop */
+
+/* Success Stories Start */
+.success-story .main{
+}
+.success-story .main .story-line{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 42px;
+    
+}
+.success-story .main .story-line-2{
+    
+    font-weight: normal;
+    font-size: 18px;
+    color: grey;
+}
+
+.success-story .main .story-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.success-story .main .story-body .images{
+    width: 26px;
+    height: 26px;
+    float: right;
+}
+
+.success-story .main .story-body .images:hover{
+    cursor: pointer;
+}
+/* Success Stories Stop */
